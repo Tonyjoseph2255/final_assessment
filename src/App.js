@@ -23,16 +23,22 @@ import Product from './component/Product';
 function App() {
   return (
    <div>
-     {/* <Router>
+     <Router>
       <Routes>
       <Route exact path="/registration" element={<Reg />} />
       <Route exact path="/login" element={<Login />} />
       <Route exact path="/dashboard" element={<Dashboard />} />
       <Route exact path="/password" element={<PasswordForm/>} />
+      <Route exact path="/posts" element={<Post/>} />
+      <Route exact path="/products" element={<Product/>} />
+      <Route exact path="/userListing" element={<User/>} />
+      <Route exact path="/todo" element={<Todo/>} />
+      
+
       </Routes>
       </Router>
-       */}
-       <Product></Product>
+      
+       {/* <Product></Product> */}
 
     </div>
   );
